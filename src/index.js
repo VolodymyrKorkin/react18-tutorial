@@ -1,19 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// function Greeting() {
-//   return (
-//     <div>
-//       <h2>My First Component</h2>
-//     </div>
-//   );
-// }
-
 function Greeting() {
-  return React.createElement(
-    "div",
-    {},
-    React.createElement("h2", {}, "My First Component")
+  return (
+    <React.Fragment>
+      <div>
+        <h3>hello people</h3>
+        <ul>
+          <li>
+            <a href="#">hello world</a>
+          </li>
+        </ul>
+      </div>
+      <h2>hi there</h2>
+    </React.Fragment>
   );
 }
 
